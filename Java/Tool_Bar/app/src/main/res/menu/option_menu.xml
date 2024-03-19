@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/add_file"
+        android:title="Add_File"
+        android:icon="@drawable/add_file"
+        app:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/camera"
+        android:title="Camera"
+        android:icon="@drawable/camera">
+    </item>
+    <item android:id="@+id/battery_saver"
+        android:title="Battery-Saver"
+        android:icon="@drawable/battery_saver">
+    </item>
+</menu>

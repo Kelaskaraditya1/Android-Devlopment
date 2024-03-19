@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/create"
+        android:icon="@drawable/create"
+        android:title="Create">
+    </item>
+    <item android:id="@+id/update"
+        android:title="Update"
+        android:icon="@drawable/baseline_browser_updated_24">
+    </item>
+    <item android:id="@+id/delete"
+        android:icon="@drawable/baseline_auto_delete_24"
+        android:title="Delete">
+    </item>
+</menu>

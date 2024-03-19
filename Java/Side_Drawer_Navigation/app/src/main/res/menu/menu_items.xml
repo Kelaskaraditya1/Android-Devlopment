@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/userprofile"
+        android:title="User Profile"
+        android:icon="@drawable/user_profile">
+    </item>
+    <item
+        android:id="@+id/analytics"
+        android:title="Analytics"
+        android:icon="@drawable/analytics">
+    </item>
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/settings">
+    </item>
+    <item
+        android:id="@+id/groups"
+        android:title="Groups"
+        android:icon="@drawable/group">
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/logout">
+    </item>
+</menu>

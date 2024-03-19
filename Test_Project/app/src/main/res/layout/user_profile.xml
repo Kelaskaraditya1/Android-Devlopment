@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/profile_image"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/boy_three">
+    </androidx.appcompat.widget.AppCompatImageView>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/camera"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:text="Camera"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textAppearance="@color/black"
+            android:textStyle="bold">
+        </androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/gallery"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:text="Gallery"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textAppearance="@color/black"
+            android:textStyle="bold">
+        </androidx.appcompat.widget.AppCompatButton>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.2"
+        android:layout_margin="10dp"
+        android:hint="Enter Your Username"
+        android:textStyle="bold"
+        android:textAppearance="@color/black"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textColorHint="@color/black">
+    </androidx.appcompat.widget.AppCompatEditText>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.2"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textAppearance="@color/black"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textColorHint="@color/black"
+        android:hint="Enter Your Password"
+        android:drawableEnd="@drawable/visibility_on_two"
+        android:longClickable="false">
+    </androidx.appcompat.widget.AppCompatEditText>
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/submit"
+    android:hint="Enter your Password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0"
+    android:text="Submit"
+    android:textSize="25sp"
+    android:textColor="@color/black"
+    android:textAppearance="@color/black"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:background="#45B9F8"
+    android:layout_margin="10dp">
+</androidx.appcompat.widget.AppCompatButton>
+</androidx.appcompat.widget.LinearLayoutCompat>

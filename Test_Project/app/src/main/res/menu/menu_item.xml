@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item android:id="@+id/user_profile"
+            android:icon="@drawable/user"
+            android:title="User Profile"
+            app:showAsAction="always">
+        </item>
+        <item android:id="@+id/settings"
+            android:icon="@drawable/settings"
+            android:title="Settings">
+        </item>
+        <item android:id="@+id/database"
+            android:icon="@drawable/database"
+            android:title="DataBase">
+        </item>
+        <item android:id="@+id/delete"
+            android:icon="@drawable/delete_"
+            android:title="Delete">
+        </item>
+        <item android:id="@+id/logout"
+            android:icon="@drawable/user"
+            android:title="Logout">
+        </item>
+    </group>
+</menu>
