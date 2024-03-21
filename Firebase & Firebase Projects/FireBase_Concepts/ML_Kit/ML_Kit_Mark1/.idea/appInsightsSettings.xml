@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.starkindustries.ml_kit_demo" />
+                  <option name="mobileSdkAppId" value="1:736232877480:android:53c39c3fe92be3d792c19d" />
+                  <option name="projectId" value="face-detection-31aa7" />
+                  <option name="projectNumber" value="736232877480" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
