@@ -8,40 +8,25 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
-        <androidx.appcompat.widget.LinearLayoutCompat
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tablayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
-            android:layout_margin="10dp">
-            <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/calender"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:padding="10dp"
-                android:text="Click To Open Calender"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textAppearance="@color/black"
-                android:layout_margin="10dp">
-            </androidx.appcompat.widget.AppCompatTextView>
-            <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/time"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:padding="10dp"
-                android:text="Click To Open Clock"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textAppearance="@color/black"
-                android:layout_margin="10dp">
-            </androidx.appcompat.widget.AppCompatTextView>
-
-        </androidx.appcompat.widget.LinearLayoutCompat>
+            app:layout_constraintVertical_bias="0">
+        </com.google.android.material.tabs.TabLayout>
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="?attr/actionBarSize">
+        </androidx.viewpager.widget.ViewPager>
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
